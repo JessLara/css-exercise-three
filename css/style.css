@@ -22,40 +22,42 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 45px;
-  position: fixed;
-  width: 420px;
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .location {
   background-color: #d6d7d8;
-  height: 70px;
-  border-bottom: 1px solid #b5b6b7;
+  height: 80px;
+  border-bottom: 1px solid #777777;
 }
 
 .location:hover {
   background-color: #b5b6b7;
+  opacity: 1.5;
 }
 
 .content{
   width: 90%;
   float: left;
-  padding: 18.5px 0 18.5px 20px;
+  padding: 20px;
 }
 
 .arrow{
   width: 10%;
   float: left;
-  padding: 18px 10px 0px 5px;
+  padding: 30px 10px;
 
 }
 
 h1{
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 h3{
-  font-size: .8em;
+  font-size: .85em;
 }
